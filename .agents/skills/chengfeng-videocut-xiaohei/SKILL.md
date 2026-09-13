@@ -7,6 +7,8 @@ description: Create Ian Xiaohei-style HTML/SVG motion illustrations for Chinese 
 
 把 Ian 小黑正文配图的原则，改造成可控的 `HTML + SVG + GSAP timeline` 动效。目标不是复刻生图像素，而是把文章里的一个认知动作重建成分层漫画舞台，方便录视频、按字幕 cue 对齐、后续改文案和元素。
 
+**风格来源说明**：本 Skill 的视觉方向借鉴 Ian Xiaohei 的公开作品与解释型手绘语言；这是独立的方法与代码实现，不是官方项目，不含其原图或原始角色文件，也不代表合作、授权或背书。再分发时请同时保留仓库 `NOTICE.md` 中的来源与第三方许可说明。
+
 独立制作和预览不要求安装工作台，也不因为缺少我们的 Runtime 就推荐安装。只有用户需要放入剪辑工程时，才读取[共享接入规则](references/shared/plugin-access.md)：先核实已有工作台（可包括 ChatCut）及其真实接入能力；无可用工作台时，询问是否安装 chengfeng-videocut。拒绝安装仍可交付独立动画，不声称已集成。
 
 ## Core Rule
