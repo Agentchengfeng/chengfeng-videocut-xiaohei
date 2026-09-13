@@ -3,7 +3,7 @@
   "version": "0.1.0-beta.1",
   "private": true,
   "description": "制作可编辑的 Ian 小黑风格 HTML/SVG 动画。",
-  "license": "SEE LICENSE IN NOTICE.md",
+  "license": "Apache-2.0",
   "author": "成峰 / AI产品自由",
   "bin": {
     "chengfeng-videocut-xiaohei": "bin/install.cjs"

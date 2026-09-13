@@ -4,7 +4,7 @@
   "version": "0.1.0-beta.1",
   "skillPath": ".agents/skills/chengfeng-videocut-xiaohei",
   "files": {
-    "CITATION.cff": "3e66793f5c34cdd288e01aaa10bc2833f9c697f6fe841840aa33b54be8ae605a",
+    "CITATION.cff": "b05ca48e831ca98570bb4b1ef1a4a05e341915f2d706bb0742033924bfc32731",
     "LICENSE": "89a9205416152aeb1d2aede0a905e79c55a51b657a5d4dcca8486953566ff7c9",
     "NOTICE.md": "43365266faa2d583215514ffea367dab24bce8164479c06316fceb06e96112e4",
     "SKILL.md": "b3e854ae0b0faae7145fd82f2f94cf6b158efc24b8e5761156bf0914f14886f2",
