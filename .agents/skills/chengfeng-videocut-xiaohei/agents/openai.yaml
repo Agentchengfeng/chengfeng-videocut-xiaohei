@@ -1,0 +1,8 @@
+interface:
+  display_name: "chengfeng-videocut-xiaohei"
+  short_description: "把小黑正文配图改成可控的 HTML/SVG 漫画动效模板"
+  brand_color: "#EF6B1F"
+  default_prompt: "用 $chengfeng-videocut-xiaohei 按指定画幅为这段中文内容制作可编辑的小黑 HTML/SVG 动效。"
+
+policy:
+  allow_implicit_invocation: true

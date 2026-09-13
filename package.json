@@ -1,0 +1,39 @@
+{
+  "name": "chengfeng-videocut-xiaohei",
+  "version": "0.1.0-beta.1",
+  "private": true,
+  "description": "制作可编辑的 Ian 小黑风格 HTML/SVG 动画。",
+  "license": "SEE LICENSE IN NOTICE.md",
+  "author": "成峰 / AI产品自由",
+  "bin": {
+    "chengfeng-videocut-xiaohei": "bin/install.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "skill-package.json",
+    "PUBLISHING.md",
+    "LICENSE",
+    "NOTICE.md",
+    "CITATION.cff",
+    "bin/install.cjs",
+    "bin/check-package.cjs",
+    ".agents/skills/chengfeng-videocut-xiaohei"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agentchengfeng/chengfeng-videocut-xiaohei.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Agentchengfeng/chengfeng-videocut-xiaohei/issues"
+  },
+  "homepage": "https://github.com/Agentchengfeng/chengfeng-videocut-xiaohei#readme",
+  "scripts": {
+    "test": "node bin/install.cjs help",
+    "check:package": "node bin/check-package.cjs check",
+    "check:upload": "node bin/check-package.cjs upload"
+  }
+}
