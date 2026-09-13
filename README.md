@@ -24,7 +24,7 @@ node bin/install.cjs doctor --host codex --target-root <同一目录>
 
 ## 整套安装与维护
 
-整套说明见 [主仓 INSTALL](https://github.com/Agentchengfeng/chengfeng-videocut/blob/main/INSTALL.md)。已公开六包源码预览，但本候选和远端完整组合不因此视为已发布。本包只包含自己的方法与资源，其他 Skills 分别维护。计划仓库名为 Agentchengfeng/chengfeng-videocut-xiaohei。候选状态见 skill-package.json；远端身份须另核对固定提交和发布证据。
+整套说明见 [主仓 INSTALL](https://github.com/Agentchengfeng/chengfeng-videocut/blob/main/INSTALL.md)。目前七包源码预览已公开，但单包远端可安装不等于完整组合、Runtime、宿主加载或业务 E2E 已验收。本包只包含自己的方法与资源，其他 Skills 分别维护。候选状态见 skill-package.json；远端身份须另核对固定提交和发布证据。
 
 源码唯一真源是 .agents/skills/chengfeng-videocut-xiaohei/。references/shared 是公共 CLI 合同的带摘要快照；由工作台 scripts/build-independent-skills.cjs 显式更新。私有产品记录与旧源码不进 Git 或 npm pack。
 
