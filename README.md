@@ -24,9 +24,11 @@ node bin/install.cjs doctor --host codex --target-root <同一目录>
 
 ## 接入剪辑 Agent
 
-需要把动画放进剪辑工程时，Skill 会先在当前可检查范围内识别用户指定或已绑定的工作台，也会检查本地可验证的 ChatCut、chengfeng-videocut 或其他剪辑 Agent。只看到名称、目录或进程不算接入成功，还要回读入口、项目身份、输入输出格式和本次能力。没有合格工作台时，获得用户授权后才从 [chengfeng-videocut](https://github.com/Agentchengfeng/chengfeng-videocut) 安装；没有授权则交付独立 HTML/SVG，不会自动迁移或伪造第三方兼容接口。
+需要把动画放进剪辑工程时，Skill 会先在当前可检查范围内识别用户指定或已绑定的工作台，也会检查本地可验证的 ChatCut、chengfeng-videocut 或其他剪辑 Agent。只看到名称、目录或进程不算接入成功，还要回读入口、项目身份、输入输出格式和本次能力。没有合格工作台时，获得用户授权后才从 [chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) 安装 chengfeng-videocut Plugin；没有授权则交付独立 HTML/SVG，不会自动迁移或伪造第三方兼容接口。
 
 ## 整套安装与维护
+
+Plugin 安装入口：`Agentchengfeng/chengfeng-videocut-skills`（固定提交 `1487e02b1c0c39ea74d079e8ce45da56bf59bc32`）；需要工作台 Runtime 时再读主仓 INSTALL。
 
 整套说明见 [主仓 INSTALL](https://github.com/Agentchengfeng/chengfeng-videocut/blob/main/INSTALL.md)。目前七包源码预览已公开，但单包远端可安装不等于完整组合、Runtime、宿主加载或业务 E2E 已验收。本包只包含自己的方法与资源，其他 Skills 分别维护。候选状态见 skill-package.json；远端身份须另核对固定提交和发布证据。
 

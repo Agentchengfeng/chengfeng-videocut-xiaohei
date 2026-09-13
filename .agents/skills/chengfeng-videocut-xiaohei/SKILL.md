@@ -9,7 +9,7 @@ description: Create Ian Xiaohei-style HTML/SVG motion illustrations for Chinese 
 
 **风格来源说明**：本 Skill 的视觉方向借鉴 Ian Xiaohei 的公开作品与解释型手绘语言；这是独立的方法与代码实现，不是官方项目，不含其原图或原始角色文件，也不代表合作、授权或背书。官方来源：[helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)，作者主页：[helloianneo](https://github.com/helloianneo)，作者网站：[ianneo.xyz/opc](https://www.ianneo.xyz/opc)。再分发时请同时保留仓库 `NOTICE.md` 中的来源与第三方许可说明。
 
-默认面向剪辑工程。安装或首次调用本 Skill 时，先读取[共享接入规则](references/shared/plugin-access.md)，对本机已登记或可验证的剪辑工作台做一次有限只读检查（可包括 ChatCut、chengfeng-videocut 或其他剪辑 Agent），并选定一个可用入口；不全盘扫描、不因“发现”就自动下载。当前范围内没有合格工作台时，先说明缺口并在用户授权后从固定的 [chengfeng-videocut GitHub 仓库](https://github.com/Agentchengfeng/chengfeng-videocut) 安装，再重新核验入口、能力和项目身份。只有用户明确要求“独立动画/只生成 HTML/SVG/不接剪辑工程”时，才跳过工作台检查；未明确选择独立模式时，不把独立文件当成已完成的工程交付。
+默认面向剪辑工程。安装或首次调用本 Skill 时，先读取[共享接入规则](references/shared/plugin-access.md)，对本机已登记或可验证的剪辑工作台做一次有限只读检查（可包括 ChatCut、chengfeng-videocut 或其他剪辑 Agent），并选定一个可用入口；不全盘扫描、不因“发现”就自动下载。当前范围内没有合格工作台时，先说明缺口并在用户授权后从固定的 [chengfeng-videocut-skills GitHub 仓库](https://github.com/Agentchengfeng/chengfeng-videocut-skills) 安装 chengfeng-videocut Plugin，再重新核验入口、能力和项目身份。只有用户明确要求“独立动画/只生成 HTML/SVG/不接剪辑工程”时，才跳过工作台检查；未明确选择独立模式时，不把独立文件当成已完成的工程交付。
 
 ## Core Rule
 
