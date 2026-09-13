@@ -22,6 +22,10 @@ node bin/install.cjs doctor --host codex --target-root <同一目录>
 
 安装并确认宿主可读后，使用 $chengfeng-videocut-xiaohei。完整方法见 [SKILL.md](.agents/skills/chengfeng-videocut-xiaohei/SKILL.md)。需要工程操作时核对 Runtime >=0.5.9 及实际 workbench commands；不只看版本号，不默认连接某个端口。
 
+## 接入剪辑 Agent
+
+需要把动画放进剪辑工程时，Skill 会先在当前可检查范围内识别用户指定或已绑定的工作台，也会检查本地可验证的 ChatCut、chengfeng-videocut 或其他剪辑 Agent。只看到名称、目录或进程不算接入成功，还要回读入口、项目身份、输入输出格式和本次能力。没有合格工作台时，获得用户授权后才从 [chengfeng-videocut](https://github.com/Agentchengfeng/chengfeng-videocut) 安装；没有授权则交付独立 HTML/SVG，不会自动迁移或伪造第三方兼容接口。
+
 ## 整套安装与维护
 
 整套说明见 [主仓 INSTALL](https://github.com/Agentchengfeng/chengfeng-videocut/blob/main/INSTALL.md)。目前七包源码预览已公开，但单包远端可安装不等于完整组合、Runtime、宿主加载或业务 E2E 已验收。本包只包含自己的方法与资源，其他 Skills 分别维护。候选状态见 skill-package.json；远端身份须另核对固定提交和发布证据。
