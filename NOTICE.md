@@ -19,7 +19,7 @@ chengfeng-videocut is an independent project. It is not affiliated with or endor
 
 ## Independent package: chengfeng-videocut-xiaohei
 
-Packaging and instructions reorganized on 2026-09-11. The visual direction is inspired by Ian Xiaohei's public work and explanatory hand-drawn language. This package is an independent implementation; it does not include Ian Xiaohei's original artwork, source files, or a claim of affiliation, endorsement, or authorization.
+Packaging and instructions reorganized on 2026-09-11. The visual direction is inspired by Ian Xiaohei's public work and explanatory hand-drawn language. Official source: https://github.com/helloianneo/ian-xiaohei-illustrations . Author: https://github.com/helloianneo . Website: https://www.ianneo.xyz/opc . This package is an independent implementation; it does not include Ian Xiaohei's original artwork, source files, or a claim of affiliation, endorsement, or authorization.
 
 Third-party notices:
 

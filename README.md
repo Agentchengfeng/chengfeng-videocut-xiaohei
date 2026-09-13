@@ -32,6 +32,12 @@ node bin/install.cjs doctor --host codex --target-root <同一目录>
 
 由成峰 / AI产品自由维护。本仓库的视觉方向**借鉴 Ian Xiaohei 的公开作品与解释型手绘语言**：黑色角色、少字批注、留白构图和“一个动作讲清一个概念”的表达方式。这里是方法和实现层面的风格参考，不是 Ian Xiaohei 的官方项目，不代表合作、授权或背书；仓库不复制其原图、原始角色文件或未获授权的素材。
 
+来源地址：
+
+- Ian Xiaohei 官方 GitHub：[helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)
+- 作者主页：[helloianneo](https://github.com/helloianneo)
+- 作者网站：[ianneo.xyz/opc](https://www.ianneo.xyz/opc)
+
 本仓库的 HTML/SVG 模板、动画编排和说明由本项目独立实现。请在再分发时保留本仓库的署名和本节来源说明。第三方运行时和图标不由 Apache-2.0 重新授权：GSAP 3.15.0 按 [GSAP Standard License](https://gsap.com/community/standard-license/) 使用，Rough.js 按 [MIT License](https://github.com/rough-stuff/rough/blob/master/LICENSE)，LobeHub 图标按其 [MIT License](https://github.com/lobehub/lobe-icons/blob/master/LICENSE)，Lucide 图标按 [ISC License](https://github.com/lucide-icons/lucide/blob/main/LICENSE)。完整清单见 [NOTICE.md](NOTICE.md)。
 
 ## 维护者上传边界
